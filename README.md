@@ -1,0 +1,1 @@
+# conection_and_querry_on_cs
