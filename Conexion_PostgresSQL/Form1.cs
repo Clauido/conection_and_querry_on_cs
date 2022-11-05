@@ -1,0 +1,26 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Conexion_PostgresSQL
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void btn_conction_Click(object sender, EventArgs e)
+        {
+            Clases.Class_Conection conect= new Clases.Class_Conection();
+            conect.conectar();
+        }
+    }
+}
